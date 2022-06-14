@@ -1,13 +1,6 @@
 import 'package:ataraxia/ataraxia.dart';
 
-@Module(
-  providers: [
+import 'cat/cat.module.dart';
 
-  ],
-  controllers: [
-
-  ]
-)
-class AppModule {
-
-}
+@Module(providers: [], controllers: [], imports: [CatModule])
+class AppModule {}
